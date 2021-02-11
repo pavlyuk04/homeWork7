@@ -1,0 +1,140 @@
+*{transition: all .1s ease-in;}
+body {
+  width: auto;
+  margin: 5 5;
+  height: auto;
+  background-color: #3399CC;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 830px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+main {
+  width: 846px;
+  height: 530px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ul{
+  font-size: 0;
+  padding: 0;
+  width: 824px;
+  height: 518px;
+  border: 3px solid white;
+  background-color: grey;
+}
+
+li {
+  display: inline-block;
+  font-size: 24px;
+  height: 130px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p:nth-child(even) {
+  opacity: 0.7;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.lis {
+  width: 50%;
+  background-color: #3399CC;
+}
+.par {
+  width: 25%;
+  background-color: #33CCCC;
+}
+.belg {
+  width: 25%;
+  background-color: #996699;
+}
+.mos {
+  background-color: #C24747;
+  width: 25%;
+}
+.tel {
+  background-color: #E2674A;
+  width: 25%;
+}
+.cair {
+  background-color: #FFCC66;
+  width: 25%;
+}
+.york {
+  background-color: #99CC99;
+  width: 25%;
+}
+.delhi {
+  background-color: #669999;
+  width: 25%;
+}
+.san {
+  background-color: #CC6699;
+  width: 50%;
+}
+.tok {
+  background-color: #339966;
+  width: 25%;
+}
+.syd {
+  background-color: #666699;
+  width: 100%;
+}
+
+div {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 30px;
+  width: max-content;
+  height: max-content;
+}
+
+.bot {
+  font-size: 20px;
+}
+
+i {
+  font-size: 30px;
+}
+
+
+ul:hover li:not(:hover){
+  opacity: 0.5;
+}
+
+header {
+  width: 824px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  
+}
+
+footer {
+  width: 824px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  
+}

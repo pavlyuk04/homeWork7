@@ -1,0 +1,125 @@
+body {
+   width: auto;
+   margin: 0 0;
+   padding: 0;
+   height: 976px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.all {
+    width: 942px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+} 
+
+.text_top {
+    width: 127px;
+    height: 9px;
+    color: #898F99;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    width: 532px;
+    height: 36px;
+    color: #0EC8CB;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.text_bot {
+    width: 513px;
+    height: 43px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #999999;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 942px;
+    height: 423px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.column {
+    width: 237px;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    width: 67px;
+    height: 67px;
+}
+
+h3 {
+    width: 167px;
+    height: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    width: 174px;
+    height: 101px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.anchorimg {
+    background: url(img/anchor-black.png) no-repeat 50% 50%;
+}
+.diamantimg {
+    background: url(img/diamond-black.png) no-repeat 50% 50%;
+}
+.glassesimg {
+    background: url(img/eyeglasses-black.png)no-repeat 50% 50%;
+}
+.monitorimg {
+    background: url(img/monitor-black.png) no-repeat 50% 50%;
+}
+
+.column:hover {
+    background-color: #0EC8CB;
+    color: white;
+}
+
+.column:hover .anchorimg {
+    background: url(img/anchor-white.png) no-repeat 50% 50%;
+}
+
+.column:hover .diamantimg {
+    background: url(img/diamond-white.png) no-repeat 50% 50%;
+}
+
+.column:hover .glassesimg {
+    background: url(img/eyeglasses-white.png) no-repeat 50% 50%;
+}
+
+.column:hover .monitorimg {
+    background: url(img/monitor-white.png) no-repeat 50% 50%;
+}
+a {
+    font-size: 20px;
+}
